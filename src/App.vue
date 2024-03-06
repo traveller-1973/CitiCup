@@ -240,12 +240,12 @@ export default {
         },
         series: [
         {
-           // 待修改标题
           name: '中证 500',
+          symbol: "none",
           type: 'line',
           color: 'rgb(69, 114, 167)',
           data: [
-            // 待填充数据0
+            // 待填充数据
             [new Date( '2021-01-01'), 5 ],
             [new Date( '2021-02-01'), 2 ],
             [new Date( '2021-03-01'), 10 ],
@@ -253,6 +253,7 @@ export default {
         },
         {
           name: '最小分位数',
+          symbol: "none",
           type: 'line',
           color: 'red',
           data: [
@@ -264,6 +265,7 @@ export default {
         },
         {
           name: '最大分位数',
+          symbol: "none",
           type: 'line',
           color: 'rgb(2, 144, 16)',
           data: [
@@ -339,6 +341,7 @@ export default {
         series: [
           {
             name: 'IC',
+            symbol: "none",
             type: 'line',
             color: 'rgb(124, 181, 236)',
             data: [
@@ -350,6 +353,7 @@ export default {
           },
           {
             name: '22日移动平均',
+            symbol: "none",
             type: 'line',
             color: 'rgb(247, 163, 92)',
             data: [
